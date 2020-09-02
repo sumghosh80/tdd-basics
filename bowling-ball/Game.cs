@@ -2,16 +2,23 @@
 
 namespace BowlingBall
 {
-    public class Game
+    public class Game:IGameScore
     {
-        public void Roll(int pins)
-        {
-            throw new NotImplementedException();
-        }
+        
 
-        public int GetScore()
+        /// <summary>
+        /// Calculation of score of frames 
+        /// </summary>
+        /// <returns></returns>
+        public int GetScore(GameFrameRoll gameFR)
         {
-            throw new NotImplementedException();
+            int score = 0;
+            int frameIndex = 0;
+            const int Max_Frame = 10;
+
+           
+            return score;
+
         }
 
     }
